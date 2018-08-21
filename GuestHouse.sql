@@ -10,3 +10,6 @@ ON e.booking_id = booking.booking_id
 JOIN rate
 ON booking.room_type_requested = rate.room_type
 AND rate.occupancy = booking.occupants
+
+
+``changes``
